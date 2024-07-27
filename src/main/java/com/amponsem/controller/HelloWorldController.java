@@ -13,4 +13,10 @@ public class HelloWorldController {
     public String helloWorld() {
         return "Welcome to 2024 Olympics Games";
     }
+
+    @GetMapping("/test2")
+    //the response body is for pure text
+    public String showPage() {
+        return "helloPage";
+    }
 }
